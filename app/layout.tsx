@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     "Growth Marketing Strategist & Performance Marketer. ₹2Cr+ ad spend managed, 81,400+ leads generated, 45M+ organic views.",
   keywords:
     "marketing strategist, performance marketer, meta ads, google ads, social media manager, content creator, lead generation, madhav vij",
-  metadataBase: new URL("https://madhav-vij.github.io/portfolio"),
+  metadataBase: new URL("https://madhav-vij.github.io"),
   authors: [{ name: "Madhav Vij" }],
   openGraph: {
     title: "Madhav Vij | Marketing Strategist & Performance Marketer",
