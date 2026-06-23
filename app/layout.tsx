@@ -12,11 +12,14 @@ export const metadata: Metadata = {
     "Growth Marketing Strategist & Performance Marketer. ₹2Cr+ ad spend managed, 81,400+ leads generated, 45M+ organic views.",
   keywords:
     "marketing strategist, performance marketer, meta ads, google ads, social media manager, content creator, lead generation, madhav vij",
+  metadataBase: new URL("https://madhav-vij.github.io"),
   authors: [{ name: "Madhav Vij" }],
   openGraph: {
     title: "Madhav Vij | Marketing Strategist & Performance Marketer",
     description: "I build brands people notice, and ads that deliver leads.",
     url: "https://madhavvij.com",
+    description: "Growth Marketing Strategist & Performance Marketer. ₹2Cr+ ad spend managed, 81,400+ leads generated, 45M+ organic views.",
+    url: "/portfolio",
     siteName: "Madhav Vij Portfolio",
     images: [
       {
@@ -34,6 +37,8 @@ export const metadata: Metadata = {
     title: "Madhav Vij | Marketing Strategist & Performance Marketer",
     description: "I build brands people notice, and ads that deliver leads.",
     images: ["/og-image.jpg"],
+    description: "Growth Marketing Strategist & Performance Marketer. ₹2Cr+ ad spend managed, 81,400+ leads generated, 45M+ organic views.",
+    images: ["/og-image.jpg"], // Next.js will automatically prefix this with the basePath
   },
   robots: {
     index: true,
