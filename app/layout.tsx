@@ -6,7 +6,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"], weight: ["400","500","600","700","800","900"], variable: "--font-inter" })
 const outfit = Outfit({ subsets: ["latin"], weight: ["600","700","800","900"], variable: "--font-outfit" })
 const isDev = process.env.NODE_ENV === "development"
-const siteUrl = isDev ? "http://localhost:3000" : "https://madhavvij6969.github.io/portfolio"
+const siteUrl = isDev ? "http://localhost:3000" : "https://madhav-vij.github.io/portfolio"
 
 export const metadata: Metadata = {
   title: "Madhav Vij | Growth Marketing Strategist",
