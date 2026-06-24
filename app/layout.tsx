@@ -5,8 +5,6 @@ import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"], weight: ["400","500","600","700","800","900"], variable: "--font-inter" })
 const outfit = Outfit({ subsets: ["latin"], weight: ["600","700","800","900"], variable: "--font-outfit" })
-const isDev = process.env.NODE_ENV === "development"
-const siteUrl = isDev ? "http://localhost:3000" : "https://madhav-vij.github.io/portfolio"
 
 export const metadata: Metadata = {
   title: "Madhav Vij | Growth Marketing Strategist",
@@ -14,16 +12,16 @@ export const metadata: Metadata = {
     "Growth Marketing Strategist & Performance Marketer. ₹2Cr+ ad spend managed, 81,400+ leads generated, 45M+ organic views.",
   keywords:
     "marketing strategist, performance marketer, meta ads, google ads, social media manager, content creator, lead generation, madhav vij",
-  metadataBase: new URL(siteUrl),
+  metadataBase: new URL("https://madhav-vij.github.io"),
   authors: [{ name: "Madhav Vij" }],
   openGraph: {
     title: "Madhav Vij | Marketing Strategist & Performance Marketer",
     description: "I build brands people notice, and ads that deliver leads.",
-    url: siteUrl,
+    url: "https://madhav-vij.github.io/portfolio",
     siteName: "Madhav Vij Portfolio",
     images: [
       {
-        url: `${isDev ? "" : "/portfolio"}/images/hero-section.jpeg`,
+        url: "/portfolio/images/hero-section.jpeg",
         width: 1200,
         height: 630,
         alt: "Madhav Vij - Marketing Strategist",
@@ -36,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Madhav Vij | Marketing Strategist & Performance Marketer",
     description: "I build brands people notice, and ads that deliver leads.",
-    images: [`${isDev ? "" : "/portfolio"}/images/hero-section.jpeg`],
+    images: ["/portfolio/images/hero-section.jpeg"],
   },
   robots: {
     index: true,

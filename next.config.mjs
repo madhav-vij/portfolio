@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
+const isLocalDev = process.env.LOCAL_DEV === "true"
+
 const nextConfig = {
   output: "export",
-  basePath: "/portfolio",
-  assetPrefix: "/portfolio",
+  basePath: isLocalDev ? "" : "/portfolio",
+  assetPrefix: isLocalDev ? "" : "/portfolio",
   trailingSlash: true,
   eslint: {
     ignoreDuringBuilds: true,

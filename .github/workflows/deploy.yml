@@ -30,11 +30,8 @@ jobs:
       - name: Install dependencies
         run: npm install --legacy-peer-deps
 
-      - name: Build
-        run: npm run build
-
-      - name: Add .nojekyll
-        run: touch ./out/.nojekyll
+      - name: Export
+        run: npm run export
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
