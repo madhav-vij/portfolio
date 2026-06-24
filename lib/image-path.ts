@@ -1,1 +1,3 @@
-export const img = (src: string) => src
+const basePath = "/portfolio"
+
+export const img = (src: string) => `${basePath}${src}`

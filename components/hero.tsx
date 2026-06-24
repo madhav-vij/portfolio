@@ -14,7 +14,7 @@ export function Hero() {
     <>
       <section id="home" className="w-full" style={{ background: "#080808" }}>
         <img
-          src="/images/hero-section.jpeg"
+          src={img("/images/hero-section.jpeg")}
           alt="Madhav Vij"
           style={{ width: "100%", height: "auto", display: "block" }}
         />

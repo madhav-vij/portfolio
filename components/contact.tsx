@@ -103,7 +103,7 @@ export function Contact() {
             <motion.a
               whileHover={{ scale: 1.03, y: -2 }}
               whileTap={{ scale: 0.97 }}
-              href="https://www.linkedin.com/in/madhav-vij-3ab386165/"
+              href="https://linkedin.com/in/madhavvij"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl text-sm font-semibold text-slate-300 hover:text-white transition-colors"

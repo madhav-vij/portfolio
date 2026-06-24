@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next build && node -e \"const fs = require('fs'); const path = 'out'; if (!fs.existsSync(path)) { fs.mkdirSync(path, { recursive: true }); } fs.writeFileSync(path + '/.nojekyll', '');\"",
+    "export": "next build && node -e \"require('fs').writeFileSync('out/.nojekyll', '')\"",
     "deploy": "gh-pages -d out --dotfiles"
   },
   "dependencies": {
